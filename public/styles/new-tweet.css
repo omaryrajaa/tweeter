@@ -12,8 +12,10 @@
 }
 
 .new-tweet label {
+  font-weight: 600;
   display: flex;
   justify-content: flex-start;
+  
   
 }
 
@@ -30,4 +32,9 @@
   background-color: #4056A1;
   font-family: 'Bungee', sans-serif;
   color: #ffffff;
+}
+
+.counter{
+  font-weight: 900;
+  color: grey;
 }

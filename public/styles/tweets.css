@@ -1,0 +1,94 @@
+#tweets{
+  color: black;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 80%;
+  border: solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#tweets header{
+  color: black;
+  background-color: #f4f1ec;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height: fit-content;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.user {
+  
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tweet-content{
+
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+ 
+  
+
+}
+
+.fade{
+  opacity: 0.5;
+}
+
+.ac-brdr {
+  margin: 0 auto;
+  border-bottom: 3px solid grey;
+}
+
+.fa{
+  color: blue;
+}
+
+#tweets footer{
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height: fit-content;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
+#tweets:hover {
+  box-shadow: 10px 10px grey;
+}
+
+#tweets:hover  .fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+
+}
+
+#tweets:hover #username{
+  display: block;
+}
+
+
+#tweets #username{
+  display: none;
+  color: rgba(0, 195, 255, 0.678);
+  
+  
+}
