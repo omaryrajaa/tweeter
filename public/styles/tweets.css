@@ -1,15 +1,14 @@
-#tweets{
+.tweets-container{
   color: black;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   width: 80%;
-  border: solid grey;
   display: flex;
   flex-direction: column;
 }
 
 
-#tweets header{
+.tweets-container header{
   color: black;
   background-color: #f4f1ec;
   padding-right: 0.5em;
@@ -54,7 +53,7 @@
   color: blue;
 }
 
-#tweets footer{
+.tweets-container footer{
   padding-right: 0.5em;
   padding-left: 0.5em;
   padding-top: 0.5em;
@@ -69,11 +68,11 @@
 
 
 
-#tweets:hover {
+.tweets:hover {
   box-shadow: 10px 10px grey;
 }
 
-#tweets:hover  .fade {
+.tweets:hover  .fade {
   opacity: 1;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
@@ -81,14 +80,27 @@
 
 }
 
-#tweets:hover #username{
+.tweets:hover .username{
   display: block;
 }
 
 
-#tweets #username{
+.tweets-container .username{
   display: none;
   color: rgba(0, 195, 255, 0.678);
   
   
+}
+
+.tweets{
+  border: solid grey;
+  margin-bottom: 0.5em;
+}
+
+.tweets p{
+  width: -webkit-fill-available;
+  border-style: none;
+  border-color: Transparent;
+  outline: none;  
+  overflow: hidden; /* Hide scrollbars */
 }

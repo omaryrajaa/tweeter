@@ -22,6 +22,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
+    <script type="text/javascript" src="/scripts/helpers.js"></script>
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
@@ -30,7 +31,10 @@
     <!-- Top nav bar (fixed) -->
     <nav class="navbar">
       <span id="navtweeter" class="navbar-span">tweeter</span>
-      <span id="addtweet" class="navbar-span">Write a new tweet</span>
+      <div id="addtweet" class="navbar-span">
+        <span>Write a new tweet</i></span>
+        <i class="fa fa-angle-double-down"></i>   
+      </div>
     </nav>
 
     <header id="header">
@@ -46,8 +50,13 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form action="/tweets/" method="POST">
+        <!-- <h2>Compose Tweet</h2> -->
+        <form action="/tweets" method="POST" id="form-submit">
+          <div id = "error-msg">
+            <i class="fa fa-exclamation-triangle"></i>
+            <span></span>
+            <i class="fa fa-exclamation-triangle"></i>
+          </div>
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           
@@ -57,38 +66,7 @@
           </div>
         </form>
       </section>
-      <section id="tweets">
-        <article>
-          <header>
-            <div class="user fade">
-              <img src="https://i.imgur.com/73hZDYK.png">
-              <span>Newton</span>
-            </div>
-            <div>
-              <span id="username">@SirIsaac</span>
-            </div> 
-          </header>
-          <div class="tweet-content fade">
-            <div>Hello!</div>
-            <div class ="ac-brdr"></div>
-          </div>
-
-          <footer>
-            <div class="time fade">
-              <time>10 days ago</time>
-            </div>
-            <div class="icons fade">
-              <i class="fa fa-flag"></i>
-              <i class="fa fa-retweet"></i>
-              <i class="fa fa-heart"></i>
-            </div>
-
-            
-          </footer>
-          </article>
-      </article>
-      
-      </section>
+      <section id="tweets" class= "tweets-container"></section>
     </main>
   </body>
 </html>

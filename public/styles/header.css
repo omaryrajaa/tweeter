@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(114, 145, 160);
+  background-color: #4056A1;;
   color: #ffffff;
 
 }
@@ -14,7 +14,7 @@
 .avatar{
   background-color: #0051a8;
   background-image: url("https://www.transparenttextures.com/patterns/kinda-jean.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
 }
 
 
