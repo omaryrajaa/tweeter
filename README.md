@@ -15,3 +15,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+![Desktop version](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/desktop-version.png)
+
+![Tablet version](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/tablet-version.png)
+
+![Example Error Message](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/error-msg.png)
