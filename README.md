@@ -22,3 +22,11 @@ This repository is the starter code for the project: Students will fork and clon
 ![Tablet version](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/tablet-version.png)
 
 ![Example Error Message](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/error-msg.png)
+
+## Stretch : Write new tweet button
+
+![Hide new tweet form](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/Hide-add-new-tweet-form.png)
+
+![Show new tweet form](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/Hide-add-new-tweet-form.png)
+
+
