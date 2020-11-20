@@ -27,6 +27,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 ![Hide new tweet form](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/Hide-add-new-tweet-form.png)
 
-![Show new tweet form](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/Hide-add-new-tweet-form.png)
+![Show new tweet form](https://raw.githubusercontent.com/omaryrajaa/tweeter/master/docs/Show-add-new-tweet-form.png)
 
 
