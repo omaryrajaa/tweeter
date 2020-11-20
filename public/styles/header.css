@@ -1,20 +1,25 @@
 #header{
-  margin-top: 120px;
   height: 400px;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #4056A1;;
+  background-color: #bea326;
+  background-image: url("https://www.transparenttextures.com/patterns/kinda-jean.png");
   color: #ffffff;
 
 }
 
 .avatar{
-  background-color: #0051a8;
-  background-image: url("https://www.transparenttextures.com/patterns/kinda-jean.png");
+
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
   
+}
+
+#header h2 {
+  margin: 0%;
 }
 
 
