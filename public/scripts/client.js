@@ -22,8 +22,8 @@ const submitTweet = () => {
         })
         .then(function() {
           fetchTweets();
-          $("#tweet-text").val("");
-          $(".counter").find("output").val(140);
+          $("output").val(140);
+          $("#tweet-text").val(""); 
           $("#error-msg").slideUp();
         });
     }

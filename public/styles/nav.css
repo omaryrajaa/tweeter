@@ -36,3 +36,8 @@
   color: red;
 }
 
+.fa-clickable {
+
+  cursor: pointer;
+  outline:none;
+}
